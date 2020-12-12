@@ -1,19 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Bootstrap starter</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Js</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <div class="container text-center">Lorem ipsum dolor sit amet.</div>
+  <div class="container">
+    <form class="js-form temperatura d-flex flex-column align-items-center jumbotron my-5" action="https://echo.htmlacademy.ru" method="POST">
+      <h2 class="m-5">Temperatura komverteri</h2>
+      <div class="d-flex align-items-center mb-4">
+        <p class="m-0 mr-5">Harorat celsiyda</p>
+        <input class="js-input" type="number" required>
+      </div>
+      <div class="d-flex align-items-baseline mb-3">
+        <p class="mr-1">Harorat Farangeytda</p>
+        <p class="js-output ml-5">? F</p>
+      </div>
+      <button class="btn btn-outline-success mb-5">Hisobla</button>
+    </form> <hr>
 
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <form class="js-road-form d-flex flex-column align-items-center jumbotron my-5" action="https://echo.htmlacademy.ru" method="POST">
+      <h2 class="my-4">Kim birinchi bo-rish-ga</h2>
+      <div class="d-flex align-items-center">
+        <p class="m-0 mr-3">Masofa</p>
+        <input class="js-road-input mr-3" type="number" placeholder="100km" required>
+        <button class="btn btn-outline-success">Hislobla</button>
+      </div>
+      <div class="d-flex ">
+
+        <div class="piyoda box d-flex flex-column align-items-center my-5 mx-3">
+          <p class="style-piyoda text-center">Piyoda</p>
+          <p class="js-piyoda">N <span>soat</span></p>
+        </div>
+
+        <div class="velosiped box d-flex flex-column align-items-center my-5 mx-3">
+          <p class="style-velosiped text-center">Velosiped</p>
+          <p class="js-velosiped">N <span>soat</span></p>
+        </div>
+
+        <div class="mashina box d-flex flex-column align-items-center my-5 mx-3">
+          <p class="style-mashina text-center">Mashina</p>
+          <p class="js-mashina">N <span>soat</span></p>
+        </div>
+
+        <div class="samalyot box d-flex flex-column align-items-center my-5 mx-3">
+          <p class="style-samalyot text-center">Samalyot</p>
+          <p class="js-samalyot">N <span>soat</span></p>
+        </div>
+      </div>
+    </form><hr>
+
+
+    <form class="js-xayoq-form d-flex flex-column align-items-center jumbotron my-5" action="https://echo.htmlacademy.ru" method="POST">
+      <h2 class="my-4">Yugurishga chiqasizmi?</h2>
+
+      <div class="xayoq d-flex">
+        <p class="js-xa mr-5">HA</p>
+        <span>/</span>
+        <p class="js-yoq ml-5">YO'Q</p>
+      </div>
+
+      <div class="d-flex">
+        <p class="m-0 mr-3">Havo harorati</p>
+        <input class="js-xayoq-input bg-light border-0" type="number" required>
+      </div>
+
+      <div class="d-flex flex-column my-4">
+        <div class="d-flex align-items-center">
+          <input class="js-rain-checkbox mr-3" type="checkbox" id="rain">
+          <label class="m-0" for="rain">Yomg'ir yog'ayaptimi?</label>
+        </div>
+        <div class="d-flex align-items-center">
+          <input class="js-zal-checkbox mr-3" type="checkbox" id="zal">
+          <label class="m-0" for="zal">Trinajor zali ochiqmi?</label>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+.box {
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  border: 2px solid #222;
+  border-radius: 10px;
+}
+
+.xayoq {
+  font-size: 86px;
+}
+
+.style-piyoda::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/man.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.style-velosiped::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/bike.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.style-mashina::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/car.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+.style-samalyot::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/airplane.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-bottom: 20px;
+}
